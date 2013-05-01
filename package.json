@@ -1,0 +1,28 @@
+{
+  "name": "jqpm_server",
+  "version": "0.0.2",
+  "description": "jquery plugin maneger server",
+  "main": "index.js",
+  "dependencies": {
+    "node-zip": "~1.0.1",
+    "mongodb": "~1.2.14",
+    "formidable": "~1.0.13",
+    "mongoskin": "~0.5.0"
+  },
+  "devDependencies": {},
+  "bin": {
+    "jqpm": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": "",
+  "keywords": [
+    "jquery",
+    "nodejs",
+    "plugin"
+  ],
+  "author": "dutao",
+  "license": "BSD"
+}
